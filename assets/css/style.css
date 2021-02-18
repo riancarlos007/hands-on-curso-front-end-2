@@ -8,6 +8,53 @@ a {
   text-decoration: none !important;
 }
 
+header {
+  background: #ffc107;
+  padding: 20px;
+}
+header form textarea:focus, header form input:focus, header form select:focus {
+  outline: 0;
+}
+header form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 20px;
+}
+
+ul li {
+  position: relative;
+}
+ul li span.notificacao {
+  position: absolute;
+  top: -3px;
+  left: 3px;
+  background-color: #ff0f9a;
+  color: #fff;
+  font-size: 10px;
+  width: 12px;
+  height: 11px;
+  border-radius: 100%;
+}
+ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343a40;
+}
+ul li a svg {
+  font-size: 25px;
+}
+ul li a:hover {
+  color: initial;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
