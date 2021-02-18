@@ -129,26 +129,80 @@
     </nav>
     <!-- end menu do site -->
 
-    <section id="banners-promocionais" class="container carousel slide" data-bs-ride="carousel">
-      <article class="carousel-inner">
-        <figure class="carousel-item active">
-          <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="banner promocional lançamento verão">
-        </figure>
+    <main>
+      <!-- banners promocional -->
+      <section id="banners-promocionais" class="container carousel slide" data-bs-ride="carousel">
+        <!-- imagens -->
+        <article class="carousel-inner">
+          <!-- imagem banner 1 -->
+          <figure class="carousel-item active">
+            <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="banner promocional lançamento verão">
+          </figure>
+          <!-- end imagem banner 1 -->
 
-        <figure class="carousel-item">
-          <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="banner promocional diversos itens">
-        </figure>
-      </article>
+          <!-- imagem banner 2 -->
+          <figure class="carousel-item">
+            <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="banner promocional diversos itens">
+          </figure>
+        </article>
+        <!-- end imagem banner 2 -->
 
-      <a class="carousel-control-prev" href="#banners-promocionais"  data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#banners-promocionais"  data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </section>
+        <!-- prev -->
+        <a class="carousel-control-prev" href="#banners-promocionais"  data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <!-- next -->
+        <a class="carousel-control-next" href="#banners-promocionais"  data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </section>
+      <!-- end banners promocional -->
+
+      <!-- banners promocionais com 6 colunas -->
+      <section class="container">
+        <!-- row -->
+        <section class="row">
+          <!-- banner parcele em até 12x-->
+          <article class="col-md-6">
+            <!-- icone do cartao -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0V4zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7H0zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z"/>
+            </svg>
+            <!-- end icone do cartao -->
+
+            <!-- texto -->
+            <p>Parcele em até <br>
+              <strong>12x sem juros</strong>
+            </p>
+            <!-- end texto -->
+          </article>
+          <!-- end banner parcele em até 12x-->
+
+          <!-- banner entrega para todo brasil -->
+          <article class="col-md-6">
+            <!-- icone do caminhao -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+              <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg>
+            <!-- end icone do caminhao-->
+
+            <!-- texto -->
+            <p>Entrega para <br>
+            <strong>todo Brasil</strong>
+            </p>
+            <!-- texto -->
+            
+          </article>
+          <!-- end banner entrega para todo brasil -->
+        </section>
+        <!-- end row -->
+
+      </section>
+      <!-- end banners promocionais com 6 colunas -->
+    </main>
 
     <!--  Arquivos Boostrap  -->
     <script src="./assets/js/jquery.js"></script>
