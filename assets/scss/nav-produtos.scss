@@ -1,0 +1,53 @@
+nav.nav-produtos{
+  background: $preto;
+  color: $branco;
+  ul.nav{
+    li{
+      a{
+        color: $branco;
+        font-weight: 100;
+      }
+      position: relative;
+      padding: 10px 0;
+
+      svg {
+        font-size: 20px ;
+        margin-right: 10px ;
+        font-weight: bold;
+      }
+
+      &:hover{
+        ul.nav{
+          display: block;
+        }
+      }
+
+      ul.nav{
+        z-index: 9999;
+        display: none;
+
+        position: absolute;
+        top: 44px;
+        
+
+        background: $preto;
+        border-top: solid 8px $amarelo;
+
+        width: 100%;
+      }
+    }
+  }
+}
+
+nav.nav-produtos{
+  ul.nav{
+    ul.nav{
+      li.nav-item{
+        padding-left: 10px;
+        &:hover{
+          background: darkgoldenrod;
+        }
+      }
+    }
+  }
+}
