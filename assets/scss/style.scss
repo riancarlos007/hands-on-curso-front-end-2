@@ -1,5 +1,21 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 
-// Framewor
-@import "./bootstrap.scss"
+// Variaveis
+@import "./variaveis.scss";
+
+
+// Components
+@import "./header.scss";
+@import "./nav-produtos.scss";
+@import "./banners-promocionais-statico.scss";
+@import "./produtos.scss";
+@import "./mais-populares.scss";
+@import "./button-veja-mais.scss";
+@import "./footer.scss";
+
+// Framework
+@import "./bootstrap.scss";
+
+// Config
+@import "./config.scss";
