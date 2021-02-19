@@ -1,0 +1,55 @@
+@media (max-width: 767px){
+  header{
+    form{
+      margin: 10px 0 10px 0;
+    }
+  }
+}
+
+@media (max-width: 991px){
+  main{
+    section{
+      article{
+        p#letra{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px){
+  main{
+    section{
+      article{
+        p#letra{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 427px){
+  main{
+    #banners-promocionais{
+      display: none;
+    }
+  }
+}
+
+@media(max-width:425px){
+  main{
+    .button-veja{
+        margin-left: 124px;
+        margin-right: 124px;
+    }
+  }
+  footer{
+    section{
+      .espaco{
+        margin-top: 30px;
+      }
+    }
+  }
+}
