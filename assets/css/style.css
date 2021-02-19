@@ -191,6 +191,36 @@ footer ul li a:hover, footer ul li.ellipsis a:hover {
   color: #d4cdcd;
 }
 
+@media (max-width: 767px) {
+  header form {
+    margin: 10px 0 10px 0;
+  }
+}
+@media (max-width: 991px) {
+  main section article p#letra {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  main section article p#letra {
+    font-size: 15px;
+  }
+}
+@media (max-width: 427px) {
+  main #banners-promocionais {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  main .button-veja {
+    margin-left: 124px;
+    margin-right: 124px;
+  }
+
+  footer section .espaco {
+    margin-top: 30px;
+  }
+}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
