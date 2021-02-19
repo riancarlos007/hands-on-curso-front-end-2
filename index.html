@@ -95,19 +95,29 @@
         <!-- menu -->
         <ul class="nav">
           <!-- lista de itens -->
-          <li class="nav-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <li class="col-md-2 nav-item d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
             Moda Femenina
 
             <!-- submenu-->
             <ul class="nav flex-column">
-              <li class="nav-item ">Lançamentos</li>
-              <li class="nav-item">Plus Size</li>
-              <li class="nav-item">Moda Praia</li>
-              <li class="nav-item">Acessórios</li>
-              <li class="nav-item">Promoção</li>
+              <li class="nav-item ">
+                <a href="#">Lançamentos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Plus Size</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Moda Praia</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Acessórios</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Promoção</a>
+              </li>
             </ul>
             <!-- submenu -->
 
@@ -115,8 +125,8 @@
           <!--end lista de itens -->
 
           <!-- lista de itens -->
-          <li class="nav-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <li class="col-md-2 nav-item d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
             Calçados
@@ -132,7 +142,7 @@
     <!-- conteudo do site -->
     <main>
       <!-- banners promocional -->
-      <section id="banners-promocionais" class="container carousel slide" data-bs-ride="carousel">
+      <section id="banners-promocionais" class="container carousel-slide" data-ride="carousel" data-bs-ride="carousel">
         <!-- imagens -->
         <article class="carousel-inner">
           <!-- imagem banner 1 -->
@@ -163,12 +173,13 @@
       <!-- end banners promocional -->
 
       <!-- banners promocionais com 6 colunas -->
-      <section class="container">
+      <section class="container banners-promocionais-statico">
         <!-- row -->
         <section class="row">
           <!-- banner parcele em até 12x-->
           <article class="col-md-6">
-            <!-- icone do cartao -->
+            <div class="banners-promocionais-statico-12x d-flex align-items-center">
+              <!-- icone do cartao -->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
               <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0V4zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7H0zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z"/>
             </svg>
@@ -179,12 +190,14 @@
               <strong>12x sem juros</strong>
             </p>
             <!-- end texto -->
+            </div>
           </article>
           <!-- end banner parcele em até 12x-->
 
           <!-- banner entrega para todo brasil -->
           <article class="col-md-6">
-            <!-- icone do caminhao -->
+            <div class="banners-promocionais-statico-todo-br d-flex align-items-center">
+              <!-- icone do caminhao -->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
               <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
             </svg>
@@ -195,25 +208,23 @@
             <strong>todo Brasil</strong>
             </p>
             <!-- texto -->
-
+            </div>
           </article>
           <!-- end banner entrega para todo brasil -->
         </section>
         <!-- end row -->
-
       </section>
       <!-- end banners promocionais com 6 colunas -->
 
       <!-- container produtos -->
-      <section class="container">
+      <section class="container produtos">
         <!-- texto centro -->
         <h1 class="text-center">Mais Populares</h1>
-
         <!-- row listagem dos produtos  -->
         <article class="row">
 
           <!-- row produto cropped rosa -->
-          <section class="produtos col-md-3">
+          <a href="#" class="produtos-container col-md-3">
             <!-- imagem do produto -->
             <img src="./assets/images/cropped-rosa.jpg" class="img-fluid" alt="cropped rosa">
             <article class="produtos-itens">
@@ -236,11 +247,11 @@
                 R$ 59,90
               </strong>
             </article>
-          </section>
+          </a>
           <!-- end produto cropped rosa -->
 
            <!-- row produto camiseta manga comprida -->
-           <section class="produtos col-md-3">
+           <a a href="#" class="produtos-container col-md-3">
             <!-- imagem do produto -->
             <img src="./assets/images/camiseta-manga-comprida.jpg" class="img-fluid" alt="camiseta manga comprida">
             <article class="produtos-itens">
@@ -267,11 +278,11 @@
                 R$ 79,90
               </strong>
             </article>
-          </section>
+          </a>
           <!-- end produto camiseta manga comprida -->
 
            <!-- row produto camiseta listrada -->
-           <section class="produtos col-md-3">
+           <a href="#" class="produtos-container col-md-3">
             <!-- imagem do produto -->
             <img src="./assets/images/camiseta-listrada.jpg" class="img-fluid" alt="camiseta listrada">
             <article class="produtos-itens">
@@ -294,11 +305,11 @@
                 R$ 49,90
               </strong>
             </article>
-          </section>
+          </a>
           <!-- end produto camiseta listrada -->
 
            <!-- row produto saia plisada -->
-           <section class="produtos col-md-3">
+           <a href="#" class="produtos-container col-md-3">
             <!-- imagem do produto -->
             <img src="./assets/images/saia-plisada.jpg" class="img-fluid" alt="saia plisada">
             <article class="produtos-itens">
@@ -321,7 +332,7 @@
                 R$ 59,90
               </strong>
             </article>
-          </section>
+          </a>
           <!-- end produto saia plisada -->
 
         </article>

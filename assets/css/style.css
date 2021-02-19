@@ -1,13 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
-* {
-  color: #343a40;
-}
-
-a {
-  text-decoration: none !important;
-}
-
 header {
   background: #ffc107;
   padding: 20px;
@@ -53,6 +45,85 @@ ul li a svg {
 }
 ul li a:hover {
   color: initial;
+}
+
+nav.nav-produtos {
+  background: #343a40;
+  color: #fff;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  padding: 10px 0;
+}
+nav.nav-produtos ul.nav li a {
+  color: #fff;
+  font-weight: 100;
+}
+nav.nav-produtos ul.nav li svg {
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  z-index: 9999;
+  display: none;
+  position: absolute;
+  top: 44px;
+  background: #343a40;
+  border-top: solid 8px #ffc107;
+  width: 100%;
+}
+
+nav.nav-produtos ul.nav ul.nav li.nav-item {
+  padding-left: 10px;
+}
+nav.nav-produtos ul.nav ul.nav li.nav-item:hover {
+  background: darkgoldenrod;
+}
+
+.banners-promocionais-statico {
+  margin-top: 30px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x {
+  background: #ff0f9a;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background: #b343c3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #fff;
+  filter: drop-shadow(2px 1px 5px rgba(0, 0, 0, 0.5));
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x svg, .banners-promocionais-statico .banners-promocionais-statico-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br svg,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x svg,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br svg {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 110%;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x p strong,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p strong {
+  font-weight: bold;
 }
 
 /*!
@@ -10404,5 +10475,12 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  color: #343a40;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */
