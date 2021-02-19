@@ -126,6 +126,71 @@ nav.nav-produtos ul.nav ul.nav li.nav-item:hover {
   font-weight: bold;
 }
 
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  margin-top: 5px;
+  color: #343a40;
+}
+.produtos .produtos-container .produtos-itens a {
+  color: black;
+}
+.produtos .produtos-container .produtos-itens a:hover {
+  color: #343a40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  font-weight: bold;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  margin-top: -10px;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #ffc107;
+  height: 12px;
+  width: 12px;
+}
+.produtos .produtos-container .produtos-itens .produtos-preco {
+  font-size: 16px;
+}
+
+.produtos h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+
+.button-veja {
+  margin-bottom: 20px;
+}
+.button-veja button {
+  font-weight: bold;
+}
+
+footer {
+  background: #343a40;
+  padding: 20px 0;
+}
+footer h4 {
+  color: #ffc107;
+}
+footer ul li, footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+}
+footer ul li a, footer ul li.ellipsis a {
+  color: #fff;
+  font-weight: 500;
+}
+footer ul li a:hover, footer ul li.ellipsis a:hover {
+  color: #d4cdcd;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

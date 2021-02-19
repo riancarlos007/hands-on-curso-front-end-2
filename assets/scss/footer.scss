@@ -1,0 +1,23 @@
+footer{
+  background: $preto;
+  padding: 20px 0;
+  h4{
+    color: $amarelo;
+  }
+  ul{
+    li,li.ellipsis{
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: $branco;
+      a{
+        &:hover{
+          color: rgb(212, 205, 205);
+        }
+        color: $branco;
+        font-weight: 500;
+      }
+    }
+  }
+}
